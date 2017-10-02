@@ -65,9 +65,17 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-console.log("Hello from Webpack!");
+"use strict";
+
+
+var name = "stayasleep";
+setTimeout(function () {
+  return alert("hello there, can i tell you about or saviour " + name);
+}, 300);
+console.log("name", name);
+console.log("did this watch");
 
 /***/ })
 /******/ ]);
